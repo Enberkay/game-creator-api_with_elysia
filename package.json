@@ -6,7 +6,10 @@
     "dev": "bun run --watch src/index.ts"
   },
   "dependencies": {
-    "elysia": "latest"
+    "@types/uuid": "^10.0.0",
+    "elysia": "latest",
+    "postgres": "^3.4.7",
+    "uuid": "^11.1.0"
   },
   "devDependencies": {
     "bun-types": "latest"
